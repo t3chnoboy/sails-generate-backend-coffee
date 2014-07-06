@@ -1,4 +1,4 @@
-/**
+###*
  * Internationalization / Localization Settings
  * (sails.config.i18n)
  *
@@ -8,11 +8,9 @@
  *
  * For more information, check out:
  * http://links.sailsjs.org/docs/config/i18n
- */
+ ###
 
-module.exports.i18n = {
+module.exports.i18n =
 
-  // Which locales are supported?
+  # Which locales are supported?
   locales: ['en', 'es', 'fr', 'de']
-
-};

@@ -1,6 +1,6 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
-# sails-generate-backend
+# sails-generate-backend-coffee
 
 
 A `backend` generator for use with the Sails command-line interface.
@@ -12,7 +12,7 @@ Certain generators are installed by default in Sails, but they can be overridden
 
 <!--
 ```sh
-$ npm install sails-generate-backend
+$ npm install sails-generate-backend-coffee
 ```
 -->
 
@@ -33,7 +33,7 @@ var sailsgen = require('sails-generate');
 var scope = {
 	rootPath: path.resolve(__dirname)
 };
-sailsgen(require('sails-generate-backend'), scope, function (err) {
+sailsgen(require('sails-generate-backend-coffee'), scope, function (err) {
 	if (err) throw err;
 
 	// It worked.
@@ -46,8 +46,8 @@ sailsgen(require('sails-generate-backend'), scope, function (err) {
 To get started quickly and see this generator in action, run the `bin/index.js` script:
 
 ```sh
-$ git clone YOUR_FORK_OF_THIS_REPO sails-generate-backend-fork
-$ cd sails-generate-backend-fork
+$ git clone YOUR_FORK_OF_THIS_REPO sails-generate-backend-coffee-fork
+$ cd sails-generate-backend-coffee-fork
 $ npm install
 $ node ./bin
 ```

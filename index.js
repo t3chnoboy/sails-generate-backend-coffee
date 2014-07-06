@@ -1,15 +1,15 @@
 /**
- * sails-generate-backend
+ * sails-generate-backend-coffee
  * 
  * Usage:
- * `sails-generate-backend`
+ * `sails-generate-backend-coffee`
  * 
  * @type {Object}
  */
 module.exports = {
 	targets: {
 		'.': { exec: function (scope, cb) {
-			console.log('Running generator (sails-generate-backend) @ `'+scope.rootPath+'`...');
+			console.log('Running generator (sails-generate-backend-coffee) @ `'+scope.rootPath+'`...');
 			cb();
 		} }
 	}

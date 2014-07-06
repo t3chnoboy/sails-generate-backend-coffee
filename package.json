@@ -1,5 +1,5 @@
 {
-  "name": "sails-generate-backend",
+  "name": "sails-generate-backend-coffee",
   "version": "0.10.13",
   "description": "Generate a backend for Sails.",
   "main": "lib/index.js",
@@ -11,6 +11,7 @@
     "generator",
     "sails",
     "generate",
+    "coffeescript",
     "plugin"
   ],
   "author": "balderdashy",
